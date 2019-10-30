@@ -77,11 +77,17 @@ audio{
 }
 
 section img {
-	width: 100px;
-	height: 120px;
+	width: 20px;
+	height: 25px;
 	float: left;
 	margin: 20px 20px 20px 0px;
 }
+
+a img{
+	margin: 0;
+}
+
+
 
 .imagen{
 	width: 320px;
@@ -196,10 +202,41 @@ footer{
 	width: 1000px;
 	height: 150px;
 	background: #FFFFFF;
-	float-left;
 	border-radius: 10px;
 	margin: 20px 0 20px 0;
 	overflow: hidden;
 	clear:both;
 
 }
+
+.lecturasDiv a{
+	margin: 0;
+    float: inherit;
+}
+
+.lecturasDiv a img{
+	float: inherit;
+}
+
+#autores {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  #autores td, #autores th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  #autores tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #autores tr:hover {background-color: #ddd;}
+  
+  #autores th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #005883;
+	color: white;
+  }
